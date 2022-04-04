@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="184.32pt"
+    height="184.32pt"
+    viewBox="0 0 184.32 184.32">
+<defs>
+  <radialGradient id="gradient0" gradientUnits="objectBoundingBox" cx="0" cy="0" fx="0" fy="0" r="1.4142135623731" spreadMethod="pad">
+   <stop stop-color="#db24ab" offset="0.258100003004074" stop-opacity="1"/>
+   <stop stop-color="#f2f2f3" offset="0.741900026798248" stop-opacity="1"/>
+   <stop stop-color="#7c0618" offset="1" stop-opacity="1"/>
+  </radialGradient>
+ </defs>
+<circle id="shape0" transform="matrix(0.999999960263572 0 0 0.999999960263572 7.19999464988701 7.19999464988685)" r="84.9600050640109" cx="84.9600050640109" cy="84.9600050640109" fill="#ffffff" fill-rule="evenodd" stroke="url(#gradient0)" stroke-width="5.76" stroke-linecap="square" stroke-linejoin="bevel"/><path id="shape01" transform="matrix(1.23607028629815 0 0 1.23607028629815 33.1363055045827 39.6708584258514)" fill="#1a1a1a" fill-rule="evenodd" stroke-opacity="0" stroke="#000000" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" d="M0 32.5355L96.9656 32.5355L96.7933 0.0205518C91.525 -0.0506417 84.7816 0.0917453 79.5133 0.0205518C88.2278 6.20956 85.2302 18.5531 78.5531 20.5508L0.427161 20.3614L0 32.5355" sodipodi:nodetypes="ccccccc"/><path id="shape01" transform="matrix(-1.23607027970592 0 0 -1.23607027970592 151.183686531979 144.64913424993)" fill="#1a1a1a" fill-rule="evenodd" stroke-opacity="0" stroke="#000000" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" d="M0 32.5355L96.9656 32.5355L96.7933 0.0205518C91.525 -0.0506417 84.7816 0.0917453 79.5133 0.0205518C88.2278 6.20956 85.2302 18.5531 78.5531 20.5508L0.427161 20.3614L0 32.5355" sodipodi:nodetypes="ccccccc"/>
+</svg>
