@@ -1,0 +1,191 @@
+/* Copyright */
+
+/********* Header Side: Dashboard Block **************************************/
+
+.topBorderOpacity {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 6vh;
+  background-color: grey;
+  opacity: 2%;
+  z-index: 2;
+}
+
+.companyLogo {
+  position: absolute;
+  top: 0;
+  margin-left: 2vw;
+  height: 6vw;
+  width: 12vw;
+  z-index: 3;
+  background: url("../img/pixiebell_logo.svg?v=1.1") 50% 50%/cover no-repeat ;
+}
+
+@media print, screen and (orientation: portrait) {
+    .companyLogo {
+      width:30vw;
+      height: 15vw;
+    }
+}
+
+nav {
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+  top: 1vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+@media print, screen and (min-aspect-ratio: 21/9) {
+    nav {
+      font-size: 4vh;
+      justify-content: center;
+    }
+}
+
+nav div{
+  display: flex;
+  align-items:center;
+  color: black;
+  font-size: 1.5vw;
+  margin-left: 5vw;
+}
+
+/* style="display: flex;align-items:center" */
+
+
+@media print, screen and (min-aspect-ratio: 21/9) {
+    nav div {
+      color: red;
+      font-size: 4vh;
+    }
+    .topBorderOpacity {
+      height: 8vh;
+    }
+}
+
+@media print, screen and (orientation: portrait) {
+    nav, .topBorderOpacity {
+      display: none;
+    }
+}
+
+
+header {
+  position: relative;
+  top: 0;
+  z-index: 1;
+  min-height: 100vh;
+  min-width: 100%;
+  object-fit: contain;
+  background: url("../img/header_background.svg") 50% 50%/cover no-repeat ;
+}
+
+@media print, screen and (min-aspect-ratio: 21/9) {
+    header {
+      background: url("../img/game_header_wide.png") 50% 50%/cover no-repeat ;
+    }
+}
+
+@media print, screen and (orientation: portrait) {
+    header {
+      background: url("../img/game_header_mobile.png") 50% 50%/contain no-repeat ;
+    }
+}
+
+
+
+/*
+  --------------- Product Panel[left side] Section from Header ------------------------
+*/
+.product_panel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: black;
+}
+
+.headerTxt {
+  font-size: 6vw;
+  font-family: Garamond, serif;
+}
+
+@media print, screen and (min-aspect-ratio: 21/9) {
+    .product_panel {
+      top: 30vh;
+    }
+}
+
+@media print, screen and (orientation: portrait) {
+    .product_panel {
+      top: 10vh;
+    }
+}
+
+.product_panel .platform_label{
+  font-size: 1.2vw;
+  background-color: grey;
+  border: 1px solid white;
+  width: 4vw;
+  text-align: center;
+}
+
+.product_panel .game_title{
+  font-size: 1.5vw;
+  font-family: fantasy;
+  border-bottom: 1px solid white;
+  width: 20vw;
+}
+
+@media print, screen and (orientation: portrait) {
+    .game_title {
+      width: 40vw !important;
+      font-size: 5vw !important;
+    }
+    .platform_label {
+      width: 15vw !important;
+      font-size: 4vw !important;
+    }
+}
+
+
+.game_btn {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5vw;
+  margin-top: 3vw;
+  margin-left: 5vw;
+  width: 15vw;
+  border: 0.15vw solid #e31985;
+  border-radius: 0.3vw;
+  background-color: #171717;
+  color: white;
+  z-index: 4;
+}
+
+.game_btn:link {
+    text-decoration: none;
+}
+
+.game_btn:visited {
+    text-decoration: none;
+}
+
+@media print, screen and (orientation: portrait) {
+    .game_btn {
+      font-size: 5vw;
+      width: 50vw;
+    }
+}
+
+.game_btn:hover {
+  background-color: #2b2b2b;
+  cursor: pointer;
+  z-index: 6;
+}

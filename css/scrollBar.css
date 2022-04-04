@@ -1,0 +1,56 @@
+
+
+.banner_StickScrollBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 9;
+  top: 50%;
+  right: 0px;
+  width: 2vw;
+  height: 35vh;
+  border: 1px solid green;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  writing-mode: vertical-lr;
+  color:white;
+  background-color: black;
+  transition-property: opacity;
+  transition-duration: 1s;
+
+
+}
+
+.bannerOpt_2, .bannerOpt_3{
+  display: none;
+}
+
+.banner_StickScrollBar:hover {
+  opacity: 20%;
+}
+
+@media print, screen and (min-aspect-ratio: 21/9) {
+    .bannerOpt_1, .bannerOpt_3{
+      display: none;
+    }
+    .bannerOpt_2{
+      display: block;
+    }
+    .banner_StickScrollBar{
+      height: 50vh;
+    }
+}
+
+@media print, screen and (orientation: portrait) {
+    .bannerOpt_1, .bannerOpt_2{
+      display: none;
+    }
+    .bannerOpt_3{
+      display: block;
+    }
+    .banner_StickScrollBar {
+      width: 6vw;
+      height: 40vh;
+    }
+}

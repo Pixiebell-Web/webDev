@@ -1,0 +1,96 @@
+/* Copyright */
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Hide scroll bar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scroll bar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body{
+    display: block;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    background-color: white;
+    /*background: url("img/game_backgrd.png") 50% 50%/cover no-repeat;*/
+}
+
+
+footer {
+    top: 100vh;
+    height: auto;
+    background-color: #171717;
+    z-index: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding-top: 0.5vw;
+    font-family: "Lucida Console", serif;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.8vw;
+}
+
+@media print, screen and (orientation:portrait) {
+    footer{
+        font-size: 2vw;
+        top: 300vh;
+        height: auto;
+    }
+}
+
+footer p {
+    animation-name: hide;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+@keyframes hide {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+}
+
+footer a  {
+    color: red;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+footer a:active {
+    color: grey;
+}
+
+footer a:hover {
+    color: black;
+}
+
+
+* {
+    box-sizing: border-box;
+    zoom: 1;
+}
